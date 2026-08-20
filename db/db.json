@@ -1,0 +1,156 @@
+{
+  "novels": [
+    {
+      "id": 1,
+      "title": "The Last Kingdom",
+      "author": "Alex Carter",
+      "genre": "Fantasy",
+      "status": "Ongoing",
+      "description": "A young warrior discovers a secret that could change his kingdom forever.",
+      "cover": "https://picsum.photos/300/450?random=1"
+    },
+    {
+      "id": 2,
+      "title": "Shadow of the Moon",
+      "author": "Ryan Blake",
+      "genre": "Mystery",
+      "status": "Completed",
+      "description": "A mysterious letter leads a detective into a forgotten town.",
+      "cover": "https://picsum.photos/300/450?random=2"
+    },
+    {
+      "id": 3,
+      "title": "Beyond the Stars",
+      "author": "Mia Anderson",
+      "genre": "Sci-Fi",
+      "status": "Ongoing",
+      "description": "A young pilot discovers a signal coming from beyond the known galaxy.",
+      "cover": "https://picsum.photos/300/450?random=3"
+    },
+    {
+      "id": 4,
+      "title": "The Silent Warrior",
+      "author": "Daniel Reed",
+      "genre": "Action",
+      "status": "Completed",
+      "description": "A forgotten warrior returns when his homeland is threatened.",
+      "cover": "https://picsum.photos/300/450?random=4"
+    },
+    {
+      "id": 5,
+      "title": "Whispers in the Rain",
+      "author": "Emma Wilson",
+      "genre": "Romance",
+      "status": "Ongoing",
+      "description": "Two strangers meet during a storm and discover an unexpected connection.",
+      "cover": "https://picsum.photos/300/450?random=5"
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "novelId": 1,
+      "chapterNumber": 1,
+      "title": "The Strange Letter",
+      "content": "Rain covered the streets as Arin walked home alone.\nThe town had been quiet for three days.\nThen he noticed a small envelope beneath his door.\nThere was no name on it, only a black symbol.\nHe opened it carefully.\nInside was a single sentence: Do not go to the northern forest.\nArin stared at the message for several seconds.\nHe had never told anyone about his plans to visit that forest.\nOutside, something moved beneath the streetlight.\nFor the first time that night, Arin wished he had stayed away."
+    },
+    {
+      "id": 2,
+      "novelId": 1,
+      "chapterNumber": 2,
+      "title": "The Northern Road",
+      "content": "Arin ignored the warning the next morning.\nHe packed his bag before sunrise.\nThe northern road disappeared into a thick layer of fog.\nNo birds sang among the trees.\nAfter an hour, he found an old stone marker.\nThe same black symbol from the letter was carved into it.\nA cold wind passed behind him.\nArin turned around, but nobody was there.\nThen he heard footsteps deeper inside the forest.\nSomeone—or something—was waiting for him."
+    },
+    {
+      "id": 3,
+      "novelId": 1,
+      "chapterNumber": 3,
+      "title": "The Hidden Gate",
+      "content": "The footsteps stopped when Arin reached the old gate.\nThe gate was covered with vines and ancient symbols.\nHe touched the stone and felt a strange vibration.\nSuddenly the symbols began to glow.\nA voice whispered his name from the other side.\nArin stepped backward in fear.\nThe gate slowly opened without anyone touching it.\nBeyond it stood a road beneath a purple sky.\nHe realized that the forest was hiding another world.\nAnd somehow, the letter had known he would find it."
+    },
+    {
+      "id": 4,
+      "novelId": 2,
+      "chapterNumber": 1,
+      "title": "The Empty House",
+      "content": "Detective Ryan received the letter on a rainy Monday.\nIt contained only an address and a time.\nThe address belonged to a house abandoned ten years earlier.\nRyan arrived just before midnight.\nThe front door was already open.\nInside, every clock had stopped at exactly twelve.\nHe walked slowly through the dark hallway.\nA photograph lay face down on the floor.\nWhen Ryan turned it over, he recognized the missing woman.\nShe had disappeared exactly ten years ago."
+    },
+    {
+      "id": 5,
+      "novelId": 2,
+      "chapterNumber": 2,
+      "title": "The Photograph",
+      "content": "Ryan studied the photograph under his flashlight.\nThere was another person standing behind the woman.\nHis face had been scratched away.\nRyan searched the room for clues.\nA locked wooden box was hidden beneath the floorboards.\nInside was an old key and another photograph.\nThis time the mysterious figure was facing the camera.\nRyan recognized the face immediately.\nIt belonged to a man who had died twelve years ago.\nThe case was becoming stranger by the minute."
+    },
+    {
+      "id": 6,
+      "novelId": 2,
+      "chapterNumber": 3,
+      "title": "Midnight",
+      "content": "The clocks suddenly began moving again.\nRyan heard a door close somewhere upstairs.\nHe slowly climbed the wooden staircase.\nA shadow crossed the hallway ahead of him.\nHe followed it into a small bedroom.\nThere was nobody inside.\nOn the wall was a message written in red ink.\nIt contained only three words: You came back.\nRyan felt a cold breath behind his neck.\nThen someone whispered his name."
+    },
+    {
+      "id": 7,
+      "novelId": 3,
+      "chapterNumber": 1,
+      "title": "The Signal",
+      "content": "Maya was alone inside the research station.\nThe stars outside the window looked unusually bright.\nSuddenly the communication system came alive.\nA strange signal appeared on the main screen.\nIt was not coming from any known satellite.\nMaya recorded the transmission.\nThe signal repeated every thirty seconds.\nThen she noticed something unusual.\nHidden inside the noise was a sequence of numbers.\nThe numbers matched the coordinates of her own station."
+    },
+    {
+      "id": 8,
+      "novelId": 3,
+      "chapterNumber": 2,
+      "title": "Unknown Coordinates",
+      "content": "Maya entered the coordinates into the navigation system.\nThe computer immediately rejected them.\nIt said the destination did not exist.\nShe checked the numbers again.\nThey were correct.\nA second signal suddenly appeared.\nThis one contained a short sentence.\nWe have been waiting for you.\nMaya looked toward the dark sky.\nSomething enormous moved behind the moon."
+    },
+    {
+      "id": 9,
+      "novelId": 3,
+      "chapterNumber": 3,
+      "title": "Beyond the Moon",
+      "content": "The station lights began flickering.\nMaya ran toward the observation window.\nA massive silver object floated above the station.\nIt made no sound and produced no visible engines.\nA beam of light reached toward the station.\nEvery computer switched on at once.\nA message appeared across every screen.\nDo not be afraid.\nMaya took a deep breath and stepped toward the light.\nThen the entire station disappeared."
+    },
+    {
+      "id": 10,
+      "novelId": 4,
+      "chapterNumber": 1,
+      "title": "The Return",
+      "content": "The village gates opened before sunrise.\nA stranger walked through wearing an old black cloak.\nNobody recognized him at first.\nThen the oldest soldier dropped his sword.\nHe knew exactly who had returned.\nThe warrior had been missing for fifteen years.\nRumors said he had died in the northern war.\nBut he was standing there alive.\nHe looked toward the mountains.\nThe enemy was coming again."
+    },
+    {
+      "id": 11,
+      "novelId": 4,
+      "chapterNumber": 2,
+      "title": "The Old Sword",
+      "content": "The warrior entered the abandoned training hall.\nDust covered the wooden floor.\nAt the center stood his old sword.\nHe lifted it from its resting place.\nThe blade was still sharp.\nOutside, villagers gathered around the building.\nThey wanted to know why he had returned.\nHe finally walked outside.\nThe answer was simple.\nHe had come back to finish the war."
+    },
+    {
+      "id": 12,
+      "novelId": 4,
+      "chapterNumber": 3,
+      "title": "The First Battle",
+      "content": "The enemy army appeared beyond the eastern hill.\nThousands of soldiers marched toward the village.\nThe villagers prepared their defenses.\nThe warrior stood alone at the front gate.\nHis hands were steady.\nThe enemy commander recognized him.\nFor a moment, both armies became silent.\nThen the first arrow flew through the air.\nThe warrior raised his sword.\nThe battle had begun."
+    },
+    {
+      "id": 13,
+      "novelId": 5,
+      "chapterNumber": 1,
+      "title": "A Rainy Evening",
+      "content": "The rain began just as Emma left the cafe.\nShe had forgotten her umbrella again.\nWhile searching for shelter, she noticed a stranger beneath a tree.\nHe was holding a blue umbrella.\nHe looked at her and smiled.\nWithout saying anything, he moved closer.\nThere was enough space beneath the umbrella for two people.\nEmma hesitated before stepping underneath it.\nThey walked together through the rain.\nNeither of them knew that evening would change their lives."
+    },
+    {
+      "id": 14,
+      "novelId": 5,
+      "chapterNumber": 2,
+      "title": "The Same Cafe",
+      "content": "The next morning Emma returned to the cafe.\nShe ordered her usual coffee.\nThen she noticed someone sitting near the window.\nIt was the stranger from the previous evening.\nHe recognized her immediately.\nThey started talking about the rain.\nSoon they were laughing together.\nNeither wanted to leave.\nWhen the cafe closed, they exchanged phone numbers.\nEmma smiled all the way home."
+    },
+    {
+      "id": 15,
+      "novelId": 5,
+      "chapterNumber": 3,
+      "title": "The Blue Umbrella",
+      "content": "A week passed quickly.\nEmma received a message asking her to meet at the park.\nWhen she arrived, she saw the same blue umbrella.\nHe was standing beneath it with a nervous smile.\nThey walked beside the lake together.\nThe sky was cloudy again.\nEmma joked that rain always followed them.\nHe said maybe that was a good thing.\nShe smiled and held his hand.\nNeither of them wanted the afternoon to end."
+    }
+  ]
+}
