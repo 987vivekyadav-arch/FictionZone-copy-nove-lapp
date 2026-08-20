@@ -19,31 +19,45 @@ function Novel({
 
 
     useEffect(function(){
-        fetch(`http://localhost:3000/novels/${id}`)
+
+        fetch("/db.json")
         .then(function(response){
             return response.json()
         })
         .then(function(data){
-            setSingleNovel(data)
+
+            const result = data.novels.filter(function(item){
+                return String(item.id) === String(id);
+            });
+
+            setSingleNovel(result[0]);
+
         })
+
     },[id]);
 
 
     useEffect(function(){
-        fetch(`http://localhost:3000/chapters?novelId=${id}`)
+
+        fetch("/db.json")
         .then(function(response){
             return response.json()
         })
         .then(function(data){
-            setChapters(data)
+
+            const result = data.chapters.filter(function(item){
+                return String(item.novelId) === String(id);
+            });
+
+            setChapters(result);
+
         })
+
     },[id]);
 
 
     return(
         <div className="novel-page">
-
-            {/* HEADER */}
 
             <header className="novel-header">
 
@@ -57,8 +71,6 @@ function Novel({
 
             </header>
 
-
-            {/* NOVEL MAIN */}
 
             <main className="novel-main">
 
@@ -87,8 +99,6 @@ function Novel({
 
                 </div>
 
-
-                {/* INFORMATION */}
 
                 <div className="novel-details">
 
@@ -146,8 +156,6 @@ function Novel({
                 </div>
 
 
-                {/* DESCRIPTION */}
-
                 <section className="description-section">
 
                     <h2>
@@ -163,8 +171,6 @@ function Novel({
 
                 </section>
 
-
-                {/* CHAPTERS */}
 
                 <section className="chapters-section">
 

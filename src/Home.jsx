@@ -29,6 +29,17 @@ function Home({
                 }
 
             })
+            .filter(function(item) {
+
+                if(novel === ""){
+                    return true;
+                }
+
+                return item.title
+                    .toLowerCase()
+                    .includes(novel.toLowerCase());
+
+            })
             .sort(function(a, b) {
 
                 if(sort === "az"){
@@ -43,12 +54,12 @@ function Home({
 
     useEffect(function(){
 
-        fetch("http://localhost:3000/novels")
+        fetch("/db.json")
             .then(function(response){
                 return response.json();
             })
             .then(function(data){
-                setData(data);
+                setData(data.novels);
             });
 
     }, []);
@@ -89,19 +100,7 @@ function Home({
                         placeholder="Search novels..."
                     />
 
-                    <button onClick={function(){
-
-                        fetch(
-                            "http://localhost:3000/novels?title=" + novel
-                        )
-                            .then(function(response){
-                                return response.json();
-                            })
-                            .then(function(data){
-                                setData(data);
-                            });
-
-                    }}>
+                    <button>
                         Search
                     </button>
 

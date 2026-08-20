@@ -12,12 +12,18 @@ function Chapter() {
 
     useEffect(function() {
 
-        fetch(`http://localhost:3000/chapters/${id}`)
+        fetch("/db.json")
             .then(function(response) {
                 return response.json();
             })
             .then(function(data) {
-                setChapter(data);
+
+                const result = data.chapters.filter(function(item) {
+                    return String(item.id) === String(id);
+                });
+
+                setChapter(result[0]);
+
             });
 
     }, [id]);
